@@ -12,6 +12,7 @@ import (
 	"math/big"
 )
 
+// KmsSigner implements crypto.Signer interface
 type KmsSigner struct {
 	kmsClient *KmsClient
 }
